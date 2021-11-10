@@ -16,3 +16,6 @@ jobs:
       run: make docker-build
     - name: Run tests
       run: make docker-runtest-all
+    - name: Flake8 action
+      uses: suo/flake8-github-action@v1
+
